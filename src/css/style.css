@@ -3,7 +3,7 @@ body{
     background: var(--color-darkblue);
     background-image: linear-gradient(
         rgba(56, 56, 140, 0.8), rgba(135, 135, 208, 0.7)
-    ), url(https://cdn.freecodecamp.org/testale-projects-fcc/images/survey-form-background.jpg);
+     ), url(https://cdn.freecodecamp.org/testale-projects-fcc/images/survey-form-background.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -19,7 +19,7 @@ h1{
 
 p{
     font-style: italic;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -37,11 +37,29 @@ div{
 }
 
 .form-input{
-    width: 100%;
+    width: 630px;
     height: 40px;
     border-radius: 7px;
     margin-top: 10px;
     padding-left: 10px;
-    font-size: 15px;
+    font-size: 16px;
 }
 
+#comments{
+    width: 630px;
+    height: 100px;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.button{
+    width: 650px;
+    height: 50px;
+    background-color: #35A55A;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
