@@ -6,8 +6,37 @@
 
     <div>
         <form id="survey-form">
-            <label for="name">Name</label>
-            <input id="name" type="text" required>
+            <label for="name"><b>Name</b></label><br>
+            <input id="name" type="text" placeholder="Enter your name"class="form-input" required>
+            <br><br>
+
+            <label for="email"><b>Email</b></label><br>
+            <input id="email" type="text" placeholder="Enter your Email" class="form-input" required>
+            <br><br>
+
+            <label for="number"><b>Age</b> (optional)</label><br>
+            <input id="number" type="number" min="1" max="120" placeholder="Age" class="form-input" required>
+            <br><br>
+
+            <label for="role"><b>Which option best describes your current role?</b></label><br>
+            <select name="role" class="form-input" required>
+                <option selected disabled>Select current role</option>
+                <option>Student</option>
+                <option>Full Time JOb</option>
+                <option>Full Time Learner</option>
+                <option>Prefer not to say</option>
+                <option>Other</option>
+            </select>
+            <br><br>
+
+            <label for="recommend"><b>Would you recommend freeCodeCamp to a friend?</b></label><br>
+            <input id="choose1" type="radio" name="recommend" class="radio_label">
+            <label for="choose1"><b>Definitely</b></label><br>
+            <input id="choose2" type="radio" name="recommend" class="radio_label">
+            <label for="choose2"><b>Maybe</b></label><br>
+            <input id="choose3" type="radio" name="recommend" class="radio_label">
+            <label for="choose3"><b>Not sure</b></label>
+
         </form>
     </div>
     </body>
