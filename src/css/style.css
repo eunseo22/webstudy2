@@ -14,7 +14,7 @@ body{
 h1{
     font-size: 30px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 p{
@@ -25,12 +25,13 @@ p{
 
 div{
     text-align: left;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 1.5em;
     background-color: rgba(38, 38, 60, 0.7);
     border-radius: 5px;
     padding: 50px;
     max-width: 650px;
+    margin-top: 30px;
     margin-left: 400px;
 
 }
@@ -41,5 +42,6 @@ div{
     border-radius: 7px;
     margin-top: 10px;
     padding-left: 10px;
+    font-size: 15px;
 }
 
