@@ -32,7 +32,7 @@ div{
     border-radius: 5px;
     padding: 50px;
     max-width: 650px;
-    margin: 50px auto 0 auto; 
+    margin: 40px auto 0 auto; 
 }
 
 .form-input{
@@ -49,8 +49,8 @@ div{
     height: 120px;
     margin-top: 10px;
     padding-left: 10px;
+    padding-top: 10px;
     font-size: 16px;
-    vertical-align: text-top;
 }
 
 .button{
