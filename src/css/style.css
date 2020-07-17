@@ -47,7 +47,7 @@ div{
 
 #comments{
     width: 630px;
-    height: 100px;
+    height: 120px;
     margin-top: 10px;
     padding-left: 10px;
     font-size: 16px;
@@ -61,5 +61,5 @@ div{
     color: white;
     text-align: center;
     padding-left: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
