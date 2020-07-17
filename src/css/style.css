@@ -2,8 +2,9 @@ body{
     font-family: sans-serif;
     background: var(--color-darkblue);
     background-image: linear-gradient(
-        rgba(56, 56, 140, 0.8), rgba(135, 135, 208, 0.7)
-     ), url(https://cdn.freecodecamp.org/testale-projects-fcc/images/survey-form-background.jpeg);
+        115deg, rgba(56, 56, 140, 0.8), rgba(135, 135, 208, 0.7)
+     ), 
+     url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -32,8 +33,7 @@ div{
     padding: 50px;
     max-width: 650px;
     margin-top: 30px;
-    margin-left: 400px;
-
+    margin: 30px, auto, 0px, auto; 
 }
 
 .form-input{
@@ -51,6 +51,7 @@ div{
     margin-top: 10px;
     padding-left: 10px;
     font-size: 16px;
+    vertical-align: text-top;
 }
 
 .button{
